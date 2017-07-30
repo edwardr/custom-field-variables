@@ -2,7 +2,6 @@
 	'use strict';
 
 	$(document).ready( function(e) {
-		console.log(cwcustomFieldVariables);
 		var title, editor_title, label, insert, close;
 		title = cwcustomFieldVariables.title;
 		editor_title = cwcustomFieldVariables.editor_title;
