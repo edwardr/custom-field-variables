@@ -2,10 +2,17 @@
 	'use strict';
 
 	$(document).ready( function(e) {
+		console.log(cwcustomFieldVariables);
+		var title, editor_title, label, insert, close;
+		title = cwcustomFieldVariables.title;
+		editor_title = cwcustomFieldVariables.editor_title;
+		label = cwcustomFieldVariables.label;
+		insert = cwcustomFieldVariables.insert;
+		close = cwcustomFieldVariables.close;
 		tinymce.create('tinymce.plugins.CWCustomFieldVariable', {
 			init : function(editor, url) {
 				editor.addButton('custom-field-variable', {
-						title : 'Custom Field Variable',
+						title : title,
 						cmd : 'insert-custom-field-variable',
 				});
 
@@ -22,18 +29,18 @@
 				.done(function( response ) {
 					response = JSON.parse(response);
 						editor.windowManager.open({
-							title: "Insert a Custom Field Variable",
+							title: editor_title,
 							body: [{
 									type   : 'listbox',
 									name   : 'cw_select_custom_field',
-									label  : 'Choose a Field',
+									label  : label,
 									values : response,
 							},],
 							buttons: [{
-									text: "Insert Field Variable",
+									text: insert,
 									onclick: "submit"
 							}, {
-									text: "Close",
+									text: close,
 									onclick: "close"
 							}],
 							width: 500,

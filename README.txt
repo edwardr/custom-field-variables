@@ -38,5 +38,8 @@ This plugin assumes you want to output the raw content of the custom field, and 
 
 == Changelog ==
 
+= 1.0.1 =
+Adds localization to tinyMCE script and POT file
+
 = 1.0.0 =
 Initial release.

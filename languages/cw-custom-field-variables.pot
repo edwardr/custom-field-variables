@@ -1,0 +1,56 @@
+# Copyright (C) 2017 Custom Field Variables
+# This file is distributed under the same license as the Custom Field Variables package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Variables 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-field-"
+"variables\n"
+"POT-Creation-Date: 2017-07-30 08:44:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-cw-custom-field-variables-admin.php:105
+msgid "No Custom Fields Currently Exist"
+msgstr ""
+
+#: admin/class-cw-custom-field-variables-admin.php:122
+msgid "Custom Field Variable"
+msgstr ""
+
+#: admin/class-cw-custom-field-variables-admin.php:123
+msgid "Insert a Custom Field Variable"
+msgstr ""
+
+#: admin/class-cw-custom-field-variables-admin.php:124
+msgid "Choose a Field"
+msgstr ""
+
+#: admin/class-cw-custom-field-variables-admin.php:125
+msgid "Insert Field Variable"
+msgstr ""
+
+#: admin/class-cw-custom-field-variables-admin.php:126
+msgid "Close"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Custom Field Variables"
+msgstr ""
+
+#. #-#-#-#-#  custom-field-variables.pot (Custom Field Variables 1.0.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  custom-field-variables.pot (Custom Field Variables 1.0.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://codewrangler.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Enables the display of custom-field variables in the WordPress post editor "
+"via a TinyMCE button. Works well with custom post types as well as default "
+"post types."
+msgstr ""

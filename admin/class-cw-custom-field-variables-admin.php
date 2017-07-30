@@ -109,4 +109,25 @@ class CW_Custom_Field_Variables_Admin {
 		wp_die();
 	}
 
+	/**
+	 * Makes the localization array available to the tinyMCE script
+	 * @since 1.0.1
+	 */
+	
+	public function localize_tinymce_script() {
+		?>
+		<!-- tinyMCE CW Custom Field Plugin -->
+		<script type='text/javascript'>
+			var cwcustomFieldVariables = {
+				'title': "<?php _e('Custom Field Variable', 'cw-custom-field-variables' ); ?>",
+				'editor_title' : "<?php _e('Insert a Custom Field Variable', 'cw-custom-field-variables' ); ?>",
+				'label' : "<?php _e('Choose a Field', 'cw-custom-field-variables' ); ?>",
+				'insert' : "<?php _e('Insert Field Variable', 'cw-custom-field-variables' ); ?>",
+				'close' : "<?php _e('Close', 'cw-custom-field-variables' ); ?>",
+			};
+		</script>
+		<!-- tinyMCE CW Custom Field Plugin -->
+		<?php
+	}
+
 }

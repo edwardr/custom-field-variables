@@ -169,6 +169,8 @@ class CW_Custom_Field_Variables {
 		$this->loader->add_action( 'wp_ajax_cw_get_custom_fields', $plugin_admin, 'get_custom_fields' );
 		$this->loader->add_filter( 'mce_buttons', $plugin_admin, 'register_tinymce_buttons', 99 );
 		$this->loader->add_filter( 'mce_external_plugins', $plugin_admin, 'register_tinymce_script', 99 );
+
+		$this->loader->add_action( 'admin_head', $plugin_admin, 'localize_tinymce_script', 99 );
 	}
 
 	/**
