@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://codewrangler.io
- * @since             1.0.1
+ * @since             1.0.0
  * @package           CW_Custom_Field_Variables
  *
  * @wordpress-plugin
  * Plugin Name:       Custom Field Variables
  * Plugin URI:        https://codewrangler.io
  * Description:       Enables the display of custom-field variables in the WordPress post editor via a TinyMCE button. Works well with custom post types as well as default post types.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            codeWrangler, Inc.
  * Author URI:        https://codewrangler.io
  * License:           GPL-2.0+
